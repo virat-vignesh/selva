@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">      
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FOTONYX – We provide the best models for your brand </title>
+ <!--favicon-->
+	<link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <!--Plugins-->
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!--Bootstrap files-->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+  <!--main style sheet-->
+  <link href="assets/sass/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+  <style>
+
+
+  body {
+  overflow-x: hidden;
+  width: 100%;
+max-width: 100%;
+}
+ .foot{
+    margin-top: 500px;
+    position: absolute;
+  }
+
+body {
+      font-family: 'Segoe UI', sans-serif;
+     
+      color: #212529;
+    }
+
+    .header {
+      background: linear-gradient(to right, #1f2937, #111827);
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    .header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      
+    }
+
+    .header p {
+      font-size: 1.2rem;
+      font-style: italic;
+      color: #ccc;
+    }
+
+    .blog-img {
+      margin: 30px 0;
+      text-align: center;
+    }
+
+    .blog-img img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .blog-img img:hover {
+      transform: scale(1.02);
+    }
+
+    .highlight-block {
+      background: #f8f9fa;
+      border-left: 5px solid #6366f1;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+    }
+
+    h2, h3 {
+      color: #1e3a8a;
+      font-weight: 600;
+      text-align: left;
+    }
+
+    .section-title {
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+
+    .future-box {
+      background: #f1f5f9;
+      border-radius: 12px;
+      padding: 30px;
+      margin-top: 40px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    }
+
+    .quote {
+      text-align: center;
+      font-style: italic;
+      margin-top: 50px;
+      color: #475569;
+    }
+
+    @media (max-width: 576px) {
+      .header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  
+
+  <!--start nav-->
+  <nav class="navbar navbar-expand-xl border-bottom py-3">
+    <div class="container px-3" >
+      <a class="navbar-brand d-xl-flex" href="index.html">
+        <img src="assets/images/black.jpg" class="logo-img" alt="">
+      </a>
+      <button type="button" class="d-xl-none btn-menu-close" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
+        <div class="offcanvas-header">
+          <!-- <img src="assets/images/gallery/logo.png" class="logo-img2" alt=""> -->
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="nav-search p-3 pt-0 border-bottom d-flex d-xl-none">
+          <!-- <form class="position-relative w-100">
+            <input type="text" class="form-control nav-search-control ps-5 border-0 py-2" placeholder="what are you looking for ?">
+            <span class="position-absolute top-50 start-0 translate-middle-y"><i class="bi bi-search fs-6 ms-3"></i></span>
+        </form> -->
+</div>
+
+  <div class="offcanvas-body p-1">
+  <ul class="navbar-nav mx-auto gap-4">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">
+        <span class="parent-menu-name">Home</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/aboutus.html">
+        <span class="parent-menu-name">Why Us</span>
+      </a>
+    </li>
+    <!-- <li class="nav-item">
+      <a class="nav-link" href="/Hiremodel.html">
+        <span class="parent-menu-name">Hire Model</span>
+      </a>
+    </li> -->
+     <li class="nav-item">
+      <a class="nav-link" href="/service.html">
+        <span class="parent-menu-name">Service</span>
+      </a>
+    </li>
+    <!-- <li class="nav-item">
+      <a class="nav-link" href="/shop-grid-offcanvas-filter.html">
+        <span class="parent-menu-name">Hire Makeup Artist</span>
+      </a>
+      </li> -->
+    <li class="nav-item">
+      <a class="nav-link" href="/blog.html">
+        <span class="parent-menu-name">Blog</span>
+      </a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" href="/contact.html">
+        <span class="parent-menu-name">Contect Us</span>
+      </a>
+    </li>
+    <!-- <li class="nav-item">
+      <a class="nav-link" href="/contact-us.html">
+        <span class="parent-menu-name">Contact</span>
+      </a>
+    </li> -->
+  </ul>
+
+ 
+</div>
+ <div class="foot p-3">
+     <div class="mb-3">
+      <div class="navbar-icons">
+  <a href="https://www.instagram.com/fotonyx_/" target="_blank" aria-label="Instagram">
+    <img src="assets/images/instagram_4922972.png" alt="Instagram Icon" />
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=61575053978271" arget="_blank" aria-label="Facebook">
+    <img src="assets/images/facebook_126724.png" alt="Facebook Icon" />
+  </a>
+  <a href="https://g.co/kgs/B9E9KuE" target="_blank" aria-label="Location">
+    <img src="assets/images/placeholder_819865.png" alt="Location Icon" />
+  </a>
+  </div>
+
+  </div>
+  <div class="">
+     <div class="d-flex align-items-center gap-3">
+              <a href="policy.html" class="font-12 text-secondary">Privacy Policy</a>
+              <!-- <a href="javascript:;" class="font-12 text-secondary">Affiliates</a> -->
+              <a href="terms and conditions.html" class="font-12 text-secondary">Terms and conditions</a>
+            </div>
+
+  </div>
+  </div>
+  
+
+
+          
+        </div>
+        <div class="navbar-icons">
+  <a href="https://www.instagram.com/fotonyx_/" target="_blank" aria-label="Instagram">
+    <img src="assets/images/instagram_4922972.png" alt="Instagram Icon" />
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=61575053978271" arget="_blank" aria-label="Facebook">
+    <img src="assets/images/facebook_126724.png" alt="Facebook Icon" />
+  </a>
+  <a href="https://g.co/kgs/B9E9KuE" target="_blank" aria-label="Location">
+    <img src="assets/images/placeholder_819865.png" alt="Location Icon" />
+  </a>
+  </div>
+      </div>
+      
+  </nav>
+  <!--end nav-->
+
+  <!--start main content-->
+  <main class="main-content">
+
+    <!--start breadcrumb-->
+    <!-- <section class="section-breadcrumb bg-img-page-header d-flex align-items-center justify-content-center">
+      <div class="container px-3 d-flex flex-column align-items-center justify-content-center">
+        <h2>My Wishlist 2</h2>
+        <nav>
+          <ol class="breadcrumb mb-0 gap-2">
+            <li class="breadcrumb-item"><a href="javascript:;" class="breadcrumb-link">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i></li>
+            <li class="breadcrumb-item breadcrumb-active">Wishlist 2</li>
+          </ol>
+        </nav>
+      </div>
+    </section> -->
+    <!--end breadcrumb-->
+   <!-- Header -->
+  <section class="header">
+    <h1>Capturing Innovation at Sangam 2025</h1>
+    <p>IIT Madras Alumni Association | Taj Hotel, Bangalore</p>
+  </section>
+
+  <!-- Blog Main -->
+  <div class="container py-5" data-aos="fade-up">
+    <div class="blog-img">
+      <img src="assets/images/blog/IIT 1.jpg" alt="Sangam 2025 Event Image">
+    </div>
+
+    <div class="highlight-block">
+      <strong>“This wasn’t just another shoot—this was a front-row seat to the future.”</strong><br />
+      As a cameraman at Sangam 2025, I got more than footage. I got fuel for my creative soul.
+    </div>
+
+    <h2 class="section-title">What Made Sangam 2025 So Powerful</h2>
+    <p>
+      Organized by the IIT Madras Alumni Association, Sangam 2025 brought together pioneers in AI, startups, and innovation at the elegant Taj Hotel in Bangalore. The atmosphere? A blend of brilliance, bold thinking, and boundary-pushing discussions.
+    </p>
+
+    <p>
+      Every speaker wasn’t just sharing wins—they were challenging the present, designing the future. AI was the core theme—touching industries like healthcare, fintech, agriculture, and creative arts.
+    </p>
+
+    <h3 class="section-title">Moments I Captured That Made Me Pause</h3>
+    <ul>
+      <li><strong>Keynote:</strong> "AI is not the future—it’s the now." That line echoed across the room and stuck with me.</li>
+      <li><strong>Funding Launch:</strong> IIT Madras unveiled new funding programs for student & alumni startups. A massive push for Indian innovation.</li>
+      <li><strong>Unicorn Builders:</strong> I filmed alumni who turned their garage ideas into global companies. Pure goosebumps!</li>
+      <li><strong>Networking Magic:</strong> Even coffee breaks felt like TED Talks. The level of conversation was next-level.</li>
+    </ul>
+
+    <h3 class="section-title">What I Learned Without Sitting in the Audience</h3>
+    <div class="future-box">
+      <p><strong>🎯 Tech moves fast—don’t blink.</strong><br> Especially in AI, yesterday’s breakthrough is today’s baseline.</p>
+      <p><strong>💡 Your creativity matters.</strong><br> I realized that videography and visual storytelling are crucial in sharing tech stories with emotion.</p>
+      <p><strong>🤝 Proximity = Growth.</strong><br> Being around innovators made me think bigger, sharper, and bolder.</p>
+      <p><strong>📸 Shooters see stories.</strong><br> Behind every handshake, I saw the spark of something meaningful—and I captured it.</p>
+    </div>
+
+    <h3 class="section-title">What the Future Holds</h3>
+    <p>
+      Attending Sangam 2025 didn’t just fill my SD card—it filled my mind. As I walked away from the Taj that evening, I wasn’t thinking about camera angles or lens settings—I was thinking about ideas, breakthroughs, and how I could grow into this world of innovation.
+    </p>
+
+    <div class="quote">
+      “I went in with a camera. I came out with a new vision.”<br>
+      <small>– Creative Professional @ Sangam 2025</small>
+    </div>
+  </div>
+  
+  
+   
+ <!--footer widgets-->
+    <section class="footer-widgets py-5 border-top">
+      <div class="container px-3">
+        <div class="row g-4">
+           <div class="col-12 col-lg-3">
+               <div class="footer-widget-1">
+                  <div class="mb-4">
+                    <img src="assets/images/black.jpg" width="160" alt="">
+                  </div>
+                   <ul class="list-unstyled d-flex flex-column gap-2">
+                      <li><a href="wedding.html" class="footer-link">Home</a></li>
+                      <li><a href="fashion.html" class="footer-link">Why Choose Us</a></li>
+                      <li><a href="product.html" class="footer-link">Services</a></li>
+                      <li><a href="family.html" class="footer-link">Blog</a></li>
+                      
+                  </ul>
+                  
+                  <p><span><i class="bi bi-envelope me-2"></i></span> <a href="mailto:support@fotonyx.in" style="color: #000;">support@fotonyx.in</a></p>
+                  <p><span><i class="bi bi-telephone me-2"></i></span><a href="tel:+9944200250">9944200250</a> </p>
+                  <div class="social-link d-flex align-items-center gap-2 mt-5">
+                    <a href="https://www.facebook.com/profile.php?id=61575053978271" class="btn btn-outline-dark"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/fotonyx_/" class="btn btn-outline-dark"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.youtube.com/@FOTONYX" class="btn btn-outline-dark"><i class="bi bi-youtube"></i></a>
+                  </div>
+               </div>
+           </div>
+           <div class="col-12 col-lg-5">
+              <div class="d-flex align-items-start justify-content-between gap-4">
+                <div class="">
+                  <h5 class="mb-3" style="text-align: start;">Marketing Services</h5>
+                  <ul class="list-unstyled d-flex flex-column gap-2">
+                      <li><a href="wedding.html" class="footer-link">Search Engine Marketing</a></li>
+                      <li><a href="fashion.html" class="footer-link">Search Engine Optimization</a></li>
+                      <li><a href="product.html" class="footer-link">Social Media Marketing</a></li>
+                      <li><a href="family.html" class="footer-link">Paid Campaigns</a></li>
+                      <li><a href="outdoor.html" class="footer-link">Lead Generation</a></li>
+                      <li><a href="corparate.html" class="footer-link">Bulk SMS Service</a></li>
+                      <li><a href="corparate.html" class="footer-link">Bulk SMS Service</a></li>
+                      <li><a href="corparate.html" class="footer-link">Email Marketing</a></li>
+                      <li><a href="corparate.html" class="footer-link">Content Marketing</a></li>
+                      <li><a href="corparate.html" class="footer-link">360° Virtual Tour</a></li>
+                      <li><a href="corparate.html" class="footer-link">Virtual Reality (VR)</a></li>
+                      <li><a href="corparate.html" class="footer-link">Aerial Drone Photography</a></li>
+                                            
+                  </ul>
+                 </div>
+                 <div class="">
+                  <h5 class="mb-3" style="text-align: start;">Development Services</h5>
+                  <ul class="list-unstyled d-flex flex-column gap-2">
+                      <li><a href="wedding.html" class="footer-link">Website Development</a></li>
+                      <li><a href="fashion.html" class="footer-link">E-Commerce Website</a></li>
+                      <li><a href="product.html" class="footer-link">Web App Development </a></li>
+                      <li><a href="family.html" class="footer-link">Mobile App Development</a></li>
+                      <li><a href="outdoor.html" class="footer-link">CRM Software</a></li>
+                      <li><a href="corparate.html" class="footer-link">Logo & Branding</a></li>
+                      <li><a href="corparate.html" class="footer-link">Graphic Designing</a></li>
+                      <li><a href="corparate.html" class="footer-link">Animation</a></li>
+                      <li><a href="corparate.html" class="footer-link">Explainer Video</a></li>
+                      <li><a href="corparate.html" class="footer-link">Hosting & Domain</a></li>
+
+                      
+                  </ul>
+                 </div>
+              
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 offset-lg-1">
+              <div class="footer-widget-4">
+                <h5 class="mb-3" style="text-align: start;">Newletter</h5>
+                <p class="news-letter-caption">Subscribe to our newsletter and enjoy 10% off your first order</p>
+				 <form method="post">
+					<div class="input-group input-group-lg mt-3">
+					  <input type="email" class="form-control border-dark" placeholder="Enter your email" required>
+					  <button class="btn btn-dark" type="submit"><i class="bi bi-arrow-up-right"></i></button>
+					</div>
+ <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/919944200250" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+  <img src="assets/images/whatsapp_15015928.png" alt="WhatsApp Icon" />
+</a>
+
+  </section>
+  <!--end footer widgets-->
+
+
+  <!--start footer strip-->
+  <footer class="footer-strip py-4 border-top">
+      <div class="container px-3">
+        <div class="row g-4">
+          <div class="col-12 col-lg-auto">
+            <p class="mb-0 font-12">@All rights reserved. Made by Codervent</p>
+          </div>
+          <div class="col-12 col-lg-auto">
+            <div class="d-flex align-items-center gap-3">
+              <a href="policy.html" class="font-12 text-secondary">Privacy Policy</a>
+              <!-- <a href="javascript:;" class="font-12 text-secondary">Affiliates</a> -->
+              <a href="terms and conditions.html" class="font-12 text-secondary">Terms and conditions</a>
+            </div>
+       
+       </div><!--end row-->
+      </div>
+  </footer>
+ <!--end footer strip-->
+
+    
+  <!--end main content-->
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
+
+
+
+
+
+  
+
+  <!-- JS file -->
+  <!-- <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script> -->
+
+
+  <!-- <script>
+  function fillHireForm(name, insta, photo) {
+    document.getElementById('modelName').value = name;
+    document.getElementById('instagramId').value = insta;
+    document.getElementById('modelPhoto').src = photo;
+
+    
+    document.getElementById('hireModelForm').scrollIntoView({ behavior: 'smooth' });
+  }
+  </script> -->
+
+
+
+
+  <!-- Swiper JS -->
+  <!-- <script src="assets/plugins/swiper/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/search-slider.js"></script>
+  <script src="assets/js/main.js"></script> -->
+
+    <!--JS file-->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="assets/plugins/swiper/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/search-slider.js"></script>
+  <!-- Initialize Swiper -->
+  <script src="assets/js/index.js"></script>
+   <!-- Initialize Swiper -->
+   <script src="assets/js/product-details.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
