@@ -8370,7 +8370,7 @@
 .blog-card:hover {
   transform: translateY(-5px);
 }
-
+/* 
 .pricing-section {
   text-align: center;
   padding: 60px 20px;
@@ -8447,7 +8447,7 @@
 
 .choose-btn:hover {
   background-color: #aaff00;
-}
+} */
 
 body {
   margin: 0;
